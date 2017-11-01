@@ -1,0 +1,63 @@
+body h1{
+    text-align:center;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/weather1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    opacity:0.6;
+    filter:alpha(opacity=80);
+    z-index: -1;
+}
+
+
+#cityName{
+    padding:5px;
+}
+
+#weatherStats{
+    padding:10px;
+    margin:auto;
+   
+}
+#messageBox{
+    max-width:500px;
+    max-height:150px;
+    margin:auto;
+    margin-top:200px;
+
+}
+#messageBox li{
+    background-color:rgb(44, 40, 40);
+    list-style:none;
+    color:white;
+    opacity:0.8;
+  
+}
+
+#zipcode{
+    margin:auto;
+}
+#enterButton{
+   
+    margin:auto;
+    
+}
+
+#weatherStats #currentTempFar, #weatherStats #currentTempCel{
+    background-color:yellow;
+    cursor:pointer;
+    color:red;
+}
+
+#weatherIcon{
+    max-width:50px;
+    height:auto;
+}
